@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        width: 150px;
+        height: 150px;
+        background: #ccc;
+        position: relative;
+        animation: play 10s;
+        animation-play-state: running;
+      }
+      @keyframes play {
+        from {
+          left: 0px;
+        }
+        to {
+          left: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Animation-play-state example</h2>
+    <p>Here the animation-play-state is set to "running".</p>
+    <div></div>
+  </body>
+</html>

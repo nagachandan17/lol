@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>ANIMATIONS</title>
+<link rel="stylesheet" href="style1.css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="images/PixelGreen.css" type="text/css" />
+</head>
+<body>
+<div id="wrap">
+  <div id="header">
+    <div id="header-content">
+      <h1 id="logo">CSS<span class="gray">ANIMATIONS</span></h1>
+      <h2 id="slogan"></h2>
+      <ul>
+        <li><a href="#" id="current">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">JAVASCRIPT</a></li>
+        <li><a href="#">PHP</a></li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="headerphoto"></div>
+  <div id="content-wrap">
+    <div id="content">
+      <div id="sidebar">
+        <div class="sidebox">
+          <h1>Search Box</h1>
+          <form action="#" class="searchform">
+            <p>
+              <input name="search_query" class="textbox" type="text" />
+              <input name="search" class="button" value="Search" type="submit" />
+            </p>
+          </form>
+        </div>
+
+        <div class="sidebox">
+          <h1 class="clear">Types Of Animations</h1>
+          <ul class="sidemenu">
+            <li><a href="#" class="top">Animation-Delay</a></li>
+            <li><a href="#">Animation Direction</a></li>
+            <li><a href="#">Animation-Duration</a></li>
+            <li><a href="#">Animation-Iteration-Count</a></li>
+            <li><a href="#">Animation-Name</a></li>
+            <li><a href="#">Animation-Play-State</a></li>
+            <li><a href="#">Animation-Timing-Function</a></li>
+          </ul>
+        </div>
+
+
+        <div class="sidebox">
+          <h1>Support Styleshout</h1>
+          <p>If you are interested in supporting my work and would like to contribute, you are welcome to make a small donation through the donate link on my website - it will be a great help and will surely be appreciated.</p>
+        </div>
+
+      </div>
+      <div id="main">
+        <fieldset>
+
+        <center><h1 style="color:green;"><strong>ANIMATION</strong></h1></center>
+        </fieldset>
+        <br><br>
+        <h2 style="text-decoration:underline;">properities:</h2>
+        <br>
+        <center><table style="width:50%">
+        <tr>
+        <th>s.no</th>
+        <th>properities</th>
+        </tr>
+        <tr>
+        <td>1</td>
+        <td>animation-delay</td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>animation-direction</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>animation-duration</td>
+        </tr>
+        <tr>
+        <td>4</td>
+        <td>animation-iteration-count</td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>animation-name</td>
+        </tr>
+        <tr>
+        <td>6</td>
+        <td>animation-play-state</td>
+        </tr>
+        <tr>
+        <td>7</td>
+        <td>animation-timing-function</td>
+        </table></center>
+        <br>
+        <h2 style="text-decoration:underline;">The @Keyframe Rule:</h2>
+        <p>When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.</p>
+        <p>To get an animation to work, you must bind the animation to an element.</p>
+        <p>The following example binds the "example" animation to the <div> element. The animation will last for 4 seconds, and it will gradually change the background-color of the <div> element from "red" to "yellow":</p>
+        <br><br>
+        <br><br>
+        <h2 style="text-decoration:underline;">animation delay:</h2>
+        <br>
+        <h3>Defination:</h3>
+        <p>The animation-delay property specifies a delay for the start of an animation.</p>
+        <p>The animation-delay value is defined in seconds (s) or milliseconds (ms).</p>
+        <br>
+        <h2>Syntax</h2>
+
+        <p ><pre style="border-left:5px solid orange;">
+          div {
+
+            animation-delay: 2s;
+
+        }
+        </pre></p>
+
+        <a href="iframe1.html"><button class="button">run</button></a>
+        <br><br><br>
+        <h2 style="text-decoration:underline;">animation direction:</h2>
+        <br>
+        <h3>Defination:</h3>
+        <p>The animation-direction property defines whether an animation should be played forwards, backwards or in alternate cycles.</p>
+        <br>
+        <h2>1.1 alternate syntax:</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+           animation-direction: alternate;
+
+         }</pre></p>
+        <a href="ifram21.html"><button class="button">run</button></a>
+        <br><br>
+        <h2>1.2 alternate-reverse:</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+           animation-direction: alternate-reverse;
+         }</pre></p>
+        <a href="iframe3.html"><button class="button">run</button></a>
+        <br><br>
+        <h2>1.3 reverse syntax:</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+            animation-direction: reverse;
+         }</p></pre>
+        <a href="iframe4.html"><button class="button">run</button></a>
+        <br><br><br>
+        <h2 style="text-decoration:underline;">animation duraction:</h2>
+        <br>
+        <h3>Defination:</h3>
+        <p>The animation-duration property defines how long an animation should take to complete one cycle.</p>
+        <br>
+        <h2>Syntax</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+           animation-duration: 3s;
+
+         }</p></pre>
+        <a href="iframe5.html"><button class="button">run</button></a>
+        <br><br><br>
+        <h2 style="text-decoration:underline;">animation-iteration-count:</h2>
+        <br>
+        <h3>Defination:</h3>
+        <p>The animation-iteration-count property specifies the number of times an animation should be played.</p>
+        <br>
+        <h2>1.1 Inherit syntax:</h2>
+        <p><pre style="border-left:5px solid orange;"> animation-iteration-count: 4;<!-- 4 times -->
+
+          animation-iteration-count: 2;<!-- 2 times -->
+
+          animation-iteration-count: inherit;<!-- 4 times --></p></pre>
+        <a href="iframe11.html"><button class="button">run</button></a>
+        <br>
+        <h2>1.2 number syntax:</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+           animation-iteration-count: 2;
+
+         }</p></pre>
+        <a href="iframe6.html"><button class="button">run</button></a>
+        <br><br><br>
+        <h2 style="text-decoration:underline;">animation name:</h2>
+        <br>
+        <h3>Defination:</h3>
+        <p>The animation-name property specifies a name for the @keyframes animation.</p>
+        <br>
+        <h2>1.1 name:</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+           animation-name: mymove;
+
+         }</p></pre>
+        <a href="iframe7.html"><button class="button">run</button></a>
+        <br><br>
+        <h2>1.2 none:</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+           width: 100px;
+
+           height: 100px;
+
+           background: red;
+
+           position: relative;
+           }</p></pre>
+        <a href="iframe12.html"><button class="button">run</button></a>
+        <br><br>
+        <h2 style="text-decoration:underline;">animation-play-state:</h2>
+        <br>
+        <h3>Defination:</h3>
+        <p>The animation-play-state property specifies whether the animation is running or paused.</p>
+        <br>
+        <h2>1.1 paused syntax:</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+           animation-play-state: paused;
+
+         }</p></pre>
+        <a href="iframe8.html"><button class="button">run</button></a>
+        <br><br>
+        <h2>1.2 running syntax:</h2>
+        <p><pre style="border-left:5px solid orange;"> div {
+
+           animation-play-state: running;
+
+         }</p></pre>
+        <a href="iframe9.html"><button class="button">run</button></a>
+        <br><br><br>
+        <h2 style="text-decoration:underline;">animation-timing-function:</h2>
+        <br>
+        <h3>Dedination</h3>
+        <p>The animation-timing-function specifies the speed curve of an animation.</p>
+        <p>The speed curve defines the TIME an animation uses to change from one set of CSS styles to another.</p>
+        <p>The speed curve is used to make the changes smoothly.</p>
+        <br>
+        <h2>all propertes syntax:</h2>
+        <p><pre style="border-left:5px solid orange;"> #div1 {animation-timing-function: linear;}
+
+         #div2 {animation-timing-function: ease;}
+
+         #div3 {animation-timing-function: ease-in;}
+
+         #div4 {animation-timing-function: ease-out;}
+
+         #div5 {animation-timing-function: ease-in-out;}
+        </p></pre>
+        <a href="iframe10.html"><button class="button">run</button></a>
+        <br><br>
+
+
+
+
+
+
+        <br/>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

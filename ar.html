@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>code</title>
+</head>
+<body>
+
+<textarea rows="30" cols="90" readonly="readonly" style="border:none;">
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+</style>
+</head>
+<body>
+
+<p>Play the animation backwards first, then forwards:</p>
+<div></div>
+<p><strong>Note:</strong> The animation-direction property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>
+</textarea>
+</body>
+</html>
